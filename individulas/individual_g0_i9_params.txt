@@ -1,0 +1,7 @@
+num_layers: 18
+neurons_per_layer: [111, 56, 15, 44, 59, 44, 81, 117, 72, 34, 32, 87, 37, 60, 52, 17, 15, 85]
+activation_functions: ['hard_sigmoid', 'softmax', 'softplus', 'hard_sigmoid', 'softsign', 'selu', 'selu', 'softsign', 'gelu', 'softmax', 'selu', 'linear', 'hard_sigmoid', 'gelu', 'softsign', 'tanh', 'softsign', 'relu']
+optimizer: nadam
+alpha: 0.01
+loss_function: categorical_crossentropy
+accuracy: 0.24459234608985025

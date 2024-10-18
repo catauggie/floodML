@@ -1,0 +1,7 @@
+num_layers: 8
+neurons_per_layer: [94, 125, 14, 124, 98, 89, 126, 35]
+activation_functions: ['softsign', 'softmax', 'tanh', 'softplus', 'hard_sigmoid', 'tanh', 'linear', 'tanh']
+optimizer: adamax
+alpha: 0.0001
+loss_function: categorical_crossentropy
+accuracy: 0.9467554076539102

@@ -1,0 +1,7 @@
+num_layers: 15
+neurons_per_layer: [51, 66, 2, 125, 118, 27, 35, 101, 122, 88, 88, 5, 118, 41, 126]
+activation_functions: ['tanh', 'gelu', 'softmax', 'selu', 'relu', 'tanh', 'softplus', 'gelu', 'hard_sigmoid', 'softmax', 'linear', 'tanh', 'tanh', 'softmax', 'elu']
+optimizer: adagrad
+alpha: 0.1
+loss_function: categorical_crossentropy
+accuracy: 0.24459234608985025

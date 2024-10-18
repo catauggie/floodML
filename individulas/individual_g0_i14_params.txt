@@ -1,0 +1,7 @@
+num_layers: 8
+neurons_per_layer: [45, 101, 22, 11, 48, 70, 100, 102]
+activation_functions: ['softmax', 'softplus', 'gelu', 'elu', 'softsign', 'sigmoid', 'selu', 'elu']
+optimizer: adadelta
+alpha: 0.0001
+loss_function: categorical_crossentropy
+accuracy: 0.24459234608985025

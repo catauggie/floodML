@@ -1,0 +1,7 @@
+num_layers: 2
+neurons_per_layer: [88, 56]
+activation_functions: ['linear', 'softplus']
+optimizer: adagrad
+alpha: 0.0001
+loss_function: categorical_crossentropy
+accuracy: 0.4176372712146423
